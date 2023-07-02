@@ -1,0 +1,38 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Personnal Stylesheet */
+
+html {
+	scroll-behavior: smooth;
+  height: 100%;
+}
+.major {
+  min-height: 60vh;
+}
+
+/* Elevator */
+#button-top {
+  position: fixed;
+  bottom: 60px;
+  right: 12px;
+  z-index: 99;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#button-top:hover {
+  transition-duration: 0.7s;
+  opacity: 0.3;
+}
