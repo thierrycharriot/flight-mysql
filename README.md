@@ -8,7 +8,7 @@ Exercice de compréhension et de mise en application du framework php [Flight](h
 
 ## Installation
 
-Mysql data needed to try `flight_blog_sql`
+Mysql data needed to try `flight-blog_sql`
 
 ## Usage
 

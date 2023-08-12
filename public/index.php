@@ -11,7 +11,7 @@ Flight::set('flight.views.path', __DIR__ . '/../app/Views/');
  * https://www.php.net/manual/fr/reserved.variables.server.php
  * $_SERVER — Variables de serveur et d'exécution
  */
-$base_url = dirname($_SERVER['SCRIPT_NAME']);
+$base_url = dirname($_SERVER['SERVER_NAME']);
 // Save your variable
 Flight::set('base_url', $base_url);
 
