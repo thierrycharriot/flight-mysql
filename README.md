@@ -1,4 +1,4 @@
-# flight-blog
+# flight-mysql
 
 Exercise of understanding and application of the php [Flight](https://flightphp.com/) framework, by carrying out a CRUD only for educational purposes.
 
@@ -8,7 +8,7 @@ Exercice de compréhension et de mise en application du framework php [Flight](h
 
 ## Installation
 
-Mysql data needed to try `flight-blog_sql`
+Mysql data needed to try `flight-mysql_sql`
 
 ## Usage
 

@@ -19,7 +19,7 @@ class Database
         Flight::register(
             'db',
             'PDO',
-            array('mysql:host=database:3306;dbname=flight_blog', 'root', 'docker'),
+            array('mysql:host=database:3306;dbname=flight-mysql', 'root', 'docker'),
             function ($db) {
                 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             }

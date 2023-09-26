@@ -1,5 +1,5 @@
 <nav class="light-blue darken-3" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="<?= Flight::get('base_url'); ?>/" class="brand-logo">Flight - Blog</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="<?= Flight::get('base_url'); ?>/" class="brand-logo">Flight - mysql</a>
         <ul class="right hide-on-med-and-down">
             <li><a href="<?= Flight::get('base_url'); ?>/about">About</a></li>
             <li><a href="<?= Flight::get('base_url'); ?>/contact">Contact</a></li>
